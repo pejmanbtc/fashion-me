@@ -447,11 +447,9 @@ header {
   padding-right: 2rem;
   border-radius: 2rem;
 }
-
-.product-image-2 {
+.ppr{
   height: 28rem;
   width: 100%;
-  background-image: url(../../images/product2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -460,34 +458,17 @@ header {
   align-items: center;
   padding-right: 2rem;
   border-radius: 2rem;
+}
+.product-image-2 {
+  background-image: url(../images/product2.png);
 }
 
 .product-image-3 {
-  height: 28rem;
-  width: 100%;
-  background-image: url(../../images/product3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding-right: 2rem;
-  border-radius: 2rem;
+  background-image: url(../images/product3.png);
 }
 
 .product-image-4 {
-  height: 28rem;
-  width: 100%;
-  background-image: url(../../images/product4.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  padding-right: 2rem;
-  border-radius: 2rem;
+  background-image: url(../images/product4.png);
 }
 
 .product-icons {
@@ -557,6 +538,83 @@ header {
 .next > img:hover {
   border-radius: 50%;
   background-color: #fbd103;
+}
+
+/*-------- concom */
+.continarcontcon{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.concom{
+  min-width: 221px;
+
+  background-color:var(--secondaryColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+
+  
+}
+.concom .contimgcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.concom .contimgcon div{
+  width: 6rem;
+  height: 3rem;
+  background-color: #ffffff;
+  margin: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.concom .contimgcon div img{
+  width: 5rem;
+  
+}
+.concom div h1{
+  font-size: larger;
+  font-weight: bolder;
+  color: #e5e5e5;
+  text-align: center;
+}
+.concom div p{
+  color: #e5e5e5;
+}
+.concom div p span{
+  color: var(--primaryColor);
+  padding: 0 0.5rem;
+}
+
+/*------------------------ slid2 */
+.ttr{
+    height: 28rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+    border-radius: 2rem;
+}
+.trending-image-1{
+    background-image: url(../images/trending1.png);
+}
+.trending-image-2{
+    background-image: url(../images/trending2.png);
+}
+.trending-image-3{
+  background-image: url(../images/trending3.png);
+}
+.trending-image-4{
+  background-image: url(../images/trending4.png);
 }
 
 /* Mobil L */
@@ -745,6 +803,16 @@ header {
   .optinss span {
     padding: 0.1rem 2rem;
   }
+  .concom .contimgcon {
+    display: flex;
+    flex-direction: row;
+  }
+  .continarcontcon{
+    padding: 0 4rem;
+    display: flex;
+    justify-content: center;
+    
+  }
 }
 
 /* laptop */
@@ -764,6 +832,22 @@ header {
   }
   .contnewa h1 {
     font-size: 5rem;
+  }
+  .continarcontcon{
+    
+  }
+  .concom{
+    width: 90rem;
+    border-radius: 2rem;
+  }
+  .concom .contimgcon div{
+    width: 8rem;
+    height: 6rem;
+  
+  }
+  .concom .contimgcon div img{
+    width: 7rem;
+    
   }
 }
 
